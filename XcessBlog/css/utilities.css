@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+.max-container{
+    max-width: 1100px;
+}
+.m-auto{
+    margin: 0 auto;
+}
+.my-2{
+    margin: 2rem 0;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.danger{
+    color: #e13311;
+}
+.bg-primary{
+    background-color: var(--primary-color);
+}
+
+.card{
+    color: dimgray;
+    max-width: 220px;
+    height: 400px;
+    box-shadow: 3px 5px 7px rgba(1, 1, 1, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.04);
+}
+.txt-container{
+    padding: 0.8rem 1rem;
+}
+.clr-secondary{
+    color: var(--secondary-color);
+}
